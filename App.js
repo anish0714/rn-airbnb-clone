@@ -3,12 +3,14 @@ import React from "react";
 import { StyleSheet, Text, View, SafeAreaView } from "react-native";
 
 import HomeScreen from "./src/screens/Home/HomeScreen";
-
+import HouseListing from "./src/components/HouseListing/HouseListings";
 export default function App() {
   return (
     <View>
-      {/* <StatusBar style="auto" /> */}
-      <HomeScreen />
+      <StatusBar style="dark-content" />
+      <SafeAreaView />
+      {/* <HomeScreen /> */}
+      <HouseListing />
     </View>
   );
 }

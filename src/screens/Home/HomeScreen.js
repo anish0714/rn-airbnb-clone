@@ -28,7 +28,7 @@ const HomeScreen = () => {
           onPress={() => console.log("Search  Pressed")}
           style={styles.searchArea}
         >
-          <Fontisto name="search" size={25} color="#f15454" />
+          <Fontisto name="search" size={16} color="#f15454" />
           <Text style={styles.searchAreaText}>Where are you going?</Text>
         </Pressable>
         <Text style={styles.text}>Go Near</Text>
@@ -65,6 +65,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: "bold",
     color: "black",
+    marginLeft: 5,
   },
   text: {
     fontSize: 80,
